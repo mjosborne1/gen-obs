@@ -1,0 +1,9 @@
+code	system	panel_description	text_description	value	units	ucum	LowRefRange	HighRefRange	RR Display	dateobserved
+21198-7	http://loinc.org	Beta-HCG	Beta-HCG	16000	IU/L	[IU]/L				12/6/2024
+718-7	http://loinc.org	Full Blood Count - Haemoglobin	 Haemoglobin	125	 g/L					12/6/2024
+4544-3	http://loinc.org	Full Blood Count - Haematocrit	 Haematocrit	0.37	 L/L					12/6/2024
+6690-2	http://loinc.org	Full Blood Count - White Blood Cell Count	 White Blood Cell Count	8	x 10^9/L	10*9/L				12/6/2024
+777-3	http://loinc.org	Full Blood Count - Platelets	 Platelets	250	x 10^9/L	10*9/L				12/6/2024
+787-2	http://loinc.org	Full Blood Count √ê Mean Corpuscular Volume (MCV)	MCV	85	fL					12/6/2024
+5778-6	http://loinc.org	Urinalysis - Colour	 Colour	Light yellow						3/6/2024
+32167-9	http://loinc.org	Urinalysis - Clarity	 Clarity	Clear						3/6/2024
