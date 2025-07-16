@@ -5,6 +5,7 @@ This tool generates FHIR Observation resources from TSV (Tab-Separated Values) d
 ## Features
 
 - Reads TSV files with laboratory observation data
+- Read display for codes from Terminology Server (Ontoserver)
 - Generates FHIR R4 compliant Observation resources
 - Supports reference ranges (low/high values)
 - Handles date parsing in MM/DD/YYYY format
@@ -18,7 +19,6 @@ The input TSV file should contain the following columns:
 | Column | Description | Required |
 |--------|-------------|----------|
 | `code` | LOINC or other coding system code | Yes |
-| `display` | Human-readable display name | Yes |
 | `system` | Coding system URI (e.g., http://loinc.org) | Yes |
 | `panel_description` | Human readable context for the individual Observation | No |
 | `text_description` | Text description of the observation | Yes |
@@ -28,7 +28,7 @@ The input TSV file should contain the following columns:
 | `LowRefRange` | Low reference range value | No |
 | `HighRefRange` | High reference range value | No |
 | `RR Display` | Reference range display text | No |
-| `dateobserved` | Date of observation (MM/DD/YYYY) | No |
+| `dateobserved` | Date of observation (DD/MM/YYYY) | No |
 
 ## Usage
 
